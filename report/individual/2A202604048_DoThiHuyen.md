@@ -11,15 +11,15 @@
 | easy_semantic | submissions/easy_semantic.zip | 3 / 3 | 20 |
 | medium_instance | submissions/medium_instance.zip | 3 / 3 | 32 |
 | hard_panoptic | chưa có | 0 / 2 | 30 |
-| cp1_holes | chưa có | 0 / 1 | 3 |
-| cp2_slice | chưa có | 0 / 1 | 3 |
-| cp5_occlusion | chưa có | 0 / 1 | 3 |
-| cp3_thin | chưa có | 0 / 1 | 3 |
-| cp4_curb | chưa có | 0 / 1 | 3 |
-| cp6_coverage | chưa có | 0 / 1 | 3 |
+| cp1_holes | submissions/cp1_holes.zip | 1 / 1 | 3 |
+| cp2_slice | submissions/cp2_slice.zip | 1 / 1 | 3 |
+| cp5_occlusion | submissions/cp5_occlusion.zip | 1 / 1 | 3 |
+| cp3_thin | submissions/cp3_thin.zip | 1 / 1 | 3 |
+| cp4_curb | submissions/cp4_curb.zip | 1 / 1 | 3 |
+| cp6_coverage | submissions/cp6_coverage.zip | 1 / 1 | 3 |
 | **Tổng tối đa** | | | **100** |
 
-Hard và sáu checkpoint chưa làm vì không đủ thời gian; không tạo ZIP rỗng. Không có lỗi export.
+hard_panoptic chưa làm; không tạo ZIP rỗng. Sáu checkpoint làm bổ sung sau 12:00 theo sự đồng ý của coach. Không có lỗi export.
 
 ## 2. Một quyết định trước khi dùng gợi ý
 
@@ -45,3 +45,4 @@ Tự đánh giá GitHub Actions: chưa có điểm.
 | 1. `000000181542.jpg`, xe bán tải giữa ảnh (Medium) | `car` hoặc `truck` | classes.json và phiếu quy tắc không định nghĩa; xe có thùng hàng hở phía sau; ảnh và taxonomy lấy từ COCO, COCO gán pickup là truck | Chọn `truck` |
 | 2. `000000373353.jpg`, van trắng đậu góc trái (Medium) | `car` hoặc `truck` | Van chở người, không có thùng hàng; theo quy ước COCO thường là car | Chọn `car` |
 | 3. `7ee6d192-89e2408b.jpg`, sườn đồi cỏ khô và bụi cây hai bên cao tốc (Easy) | `vegetation` hoặc để trống (không có class terrain) | Task chỉ có 5 class; vùng có bụi cây và thảm cỏ | Chọn `vegetation`. Câu hỏi cho coach: nếu reference để trống vùng đồi cỏ thì nên xử lý thế nào? Xe và dải phân cách để trống vì không có class. |
+| 4. `000000144300.jpg` (cp1_holes), caravan trắng bên trái | `car`/`truck` hoặc để trống | Không có class caravan trong classes.json; caravan không phải xe tự chạy | Xóa object, để trống vùng caravan |
