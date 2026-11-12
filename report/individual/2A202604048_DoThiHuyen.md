@@ -10,7 +10,7 @@
 | --- | --- | ---: | ---: |
 | easy_semantic | submissions/easy_semantic.zip | 3 / 3 | 20 |
 | medium_instance | submissions/medium_instance.zip | 3 / 3 | 32 |
-| hard_panoptic | chưa có | 0 / 2 | 30 |
+| hard_panoptic | submissions/hard_panoptic.zip | 2 / 2 | 30 |
 | cp1_holes | submissions/cp1_holes.zip | 1 / 1 | 3 |
 | cp2_slice | submissions/cp2_slice.zip | 1 / 1 | 3 |
 | cp5_occlusion | submissions/cp5_occlusion.zip | 1 / 1 | 3 |
@@ -19,7 +19,7 @@
 | cp6_coverage | submissions/cp6_coverage.zip | 1 / 1 | 3 |
 | **Tổng tối đa** | | | **100** |
 
-hard_panoptic chưa làm; không tạo ZIP rỗng. Sáu checkpoint làm bổ sung sau 12:00 theo sự đồng ý của coach. Không có lỗi export.
+Sáu checkpoint và hard_panoptic làm bổ sung sau 12:00 theo sự đồng ý của coach. Không có lỗi export.
 
 ## 2. Một quyết định trước khi dùng gợi ý
 
